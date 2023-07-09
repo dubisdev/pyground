@@ -10,12 +10,15 @@ import { loader } from "@monaco-editor/react"
 const LoadPage = () => {
     const [_, navigate] = useHashLocation()
     useEffect(() => {
+        // configure monaco
         self.MonacoEnvironment = {
             getWorker(_) {
                 return new editorWorker();
             },
         };
         loader.config({ monaco })
+
+        // init x-python (pyodide)
         init()
             .then(() => navigate("/app"))
     }, [])
