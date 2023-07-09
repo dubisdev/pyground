@@ -1,1 +1,1 @@
-# Pyground
+# Pyground: A playground for Python
