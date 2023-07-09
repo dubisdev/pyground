@@ -3,9 +3,19 @@ import { LoadingDots } from "./LoadingDots"
 import { useHashLocation } from "../hooks/useHashLocation"
 import { init } from "@x-python/core";
 
+import * as monaco from 'monaco-editor';
+import editorWorker from 'monaco-editor/esm/vs/editor/editor.worker?worker';
+import { loader } from "@monaco-editor/react"
+
 const LoadPage = () => {
     const [_, navigate] = useHashLocation()
     useEffect(() => {
+        self.MonacoEnvironment = {
+            getWorker(_) {
+                return new editorWorker();
+            },
+        };
+        loader.config({ monaco })
         init()
             .then(() => navigate("/app"))
     }, [])
