@@ -9,7 +9,17 @@ const ResultDisplayer = () => {
         <div className={styles.editor}>
             <Editor
                 defaultLanguage='python'
-                options={{ minimap: { enabled: false }, readOnly: true }}
+                options={{
+                    lineNumbers: 'off',
+                    theme: 'vs-dark',
+                    minimap: { enabled: false },
+                    overviewRulerLanes: 0,
+                    scrollbar: {
+                        vertical: "hidden",
+                        horizontal: "hidden",
+                    },
+                    wordWrap: 'on',
+                }}
                 value={codeResult}
             />
         </div>

@@ -9,7 +9,17 @@ const CustomEditor = () => {
         <div className={styles.editor}>
             <Editor
                 defaultLanguage='python'
-                options={{ minimap: { enabled: false } }}
+                options={{
+                    theme: 'vs-dark',
+                    lineNumbersMinChars: 4,
+                    minimap: { enabled: false },
+                    overviewRulerLanes: 0,
+                    scrollbar: {
+                        vertical: "hidden",
+                        horizontal: "hidden",
+                    },
+                    wordWrap: 'on',
+                }}
                 value={code}
                 onChange={(value) => setCode(String(value))}
             />
