@@ -9,9 +9,9 @@ const ResultDisplayer = () => {
         <div className={styles.editor}>
             <Editor
                 defaultLanguage='python'
+                theme='vs-dark'
                 options={{
                     lineNumbers: 'off',
-                    theme: 'vs-dark',
                     minimap: { enabled: false },
                     overviewRulerLanes: 0,
                     scrollbar: {
@@ -19,6 +19,7 @@ const ResultDisplayer = () => {
                         horizontal: "hidden",
                     },
                     wordWrap: 'on',
+                    readOnly: true,
                 }}
                 value={codeResult}
             />

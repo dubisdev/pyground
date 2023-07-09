@@ -9,8 +9,8 @@ const CustomEditor = () => {
         <div className={styles.editor}>
             <Editor
                 defaultLanguage='python'
+                theme='vs-dark'
                 options={{
-                    theme: 'vs-dark',
                     lineNumbersMinChars: 4,
                     minimap: { enabled: false },
                     overviewRulerLanes: 0,
