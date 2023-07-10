@@ -16,6 +16,9 @@
     },
     "bundle": {
       "active": true,
+      "identifier": "dev.dubis.pyground",
+      "publisher": "dubis.dev",
+      "copyright": "2023 ©️ David Jimenez",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -23,16 +26,17 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "dev.dubis.pyground",
-      "targets": "all"
+      "targets": [
+        "nsis"
+      ]
     },
     "windows": [
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "pyground",
-        "width": 800,
-        "height": 600
+        "title": "Pyground",
+        "width": 1000,
+        "height": 750
       }
     ]
   }
