@@ -15,7 +15,7 @@ const ResultDisplayer = () => {
                     minimap: { enabled: false },
                     overviewRulerLanes: 0,
                     scrollbar: {
-                        vertical: "hidden",
+                        vertical: "auto",
                         horizontal: "hidden",
                     },
                     wordWrap: 'on',
