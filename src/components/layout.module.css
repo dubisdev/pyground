@@ -1,6 +1,6 @@
 .layout {
-    display: flex;
-    columns: 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
     height: 100%;
     width: 100%;
     background-color: black;
