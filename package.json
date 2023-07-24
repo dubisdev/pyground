@@ -22,11 +22,11 @@
   "devDependencies": {
     "@tauri-apps/cli": "1.4.0",
     "@types/node": "18.15.11",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.6",
-    "@vitejs/plugin-react": "4.0.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "4.0.3",
     "monaco-editor": "0.40.0",
     "typescript": "5.1.6",
-    "vite": "4.4.2"
+    "vite": "4.4.7"
   }
 }
