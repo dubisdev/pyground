@@ -40,9 +40,9 @@ I want to keep the project as simple as possible. I'll just add the following fe
 
 This app works thanks to the following projects:
 
-- [Pyodide](https://pyodide.org/)
-- [X-Python](https://github.com/suren-atoyan/x-python)
-- [Tauri](https://tauri.app)
+- [Pyodide](https://pyodide.org/) - The python interpreter for the web
+- [X-Python](https://github.com/suren-atoyan/x-python) - An easy way to run pyodide in a web worker
+- [Tauri](https://tauri.app) - Build native apps using web technologies
 
 ## 📜 License
 
