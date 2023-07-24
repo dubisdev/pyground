@@ -7,11 +7,43 @@
   <i><strong>A playground for Python</strong></i>
 </p>
 
-## TODOs
+<p align="center">
+  <a href="https://github.com/dubisdev/pyground/releases/latest">
+    🔗 Go to Download Page
+  </a>
+    &nbsp; | &nbsp; Don't forget to give it a Star ⭐
+</p>
 
-- (DONE) Add loading page (with loading animation) for when the user first loads
-the page. Await to load: the editor, and the python interpreter.
-- Add a way to save the code to a file.
-- (DONE) Change the scheme of the editor to a dark theme.
-- Add language server support for the editor.
-- Load Pyodide from local files
+<hr />
+
+## 🐍 Features
+
+- 🧑‍💻 Edit your code in a simple editor, get instant feedback
+- 📦 Multiple packages available for import
+- ▶️ No need to install anything, just download and run
+
+> **Warning**
+> An internet connection is required to run the app for the first time, as it needs
+> to download the Python interpreter. After that, you can run the app offline.
+> If you need to import a package that is not included in the app, you will need
+> an internet connection.
+
+## 🛣️ Roadmap
+
+I want to keep the project as simple as possible. I'll just add the following features:
+
+- [ ] Save code to file / load code from file
+- [ ] Themes
+- [x] Autoupdater
+
+## 🔍 Related Projects
+
+This app works thanks to the following projects:
+
+- [Pyodide](https://pyodide.org/)
+- [X-Python](https://github.com/suren-atoyan/x-python)
+- [Tauri](https://tauri.app)
+
+## 📜 License
+
+MIT © [David Jiménez](https://dubis.dev)
