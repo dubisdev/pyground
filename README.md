@@ -22,11 +22,10 @@
 - 📦 Multiple packages available for import
 - ▶️ No need to install anything, just download and run
 
-> **Warning**
-> An internet connection is required to run the app for the first time, as it needs
-> to download the Python interpreter. After that, you can run the app offline.
-> If you need to import a package that is not included in the app, you will need
-> an internet connection.
+<br/>
+
+| ⚠️ WARNING: An internet connection is required to run the app for the first time, as it needs to download the Python interpreter. After that, you can run the app offline. If you need to import a package that is not included in the app, you will need an internet connection.. |
+| --- |
 
 ## 🛣️ Roadmap
 
