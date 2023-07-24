@@ -14,6 +14,13 @@
     "allowlist": {
       "all": false
     },
+    "updater": {
+      "active": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDdCRTdCRTI0NzVGMkNDQjUKUldTMXpQSjFKTDduZTI2QlhYQU45cWxEMFNVNXVHeWxRdFhKTnBQN3FWTitzSzNzNWhWTXhqa3AK",
+      "endpoints": [
+        "https://github.com/dubisdev/pyground/releases/latest/download/latest.json"
+      ]
+    },
     "bundle": {
       "active": true,
       "identifier": "dev.dubis.pyground",
@@ -27,13 +34,12 @@
         "icons/icon.ico"
       ],
       "targets": [
-        "nsis"
+        "nsis",
+        "updater"
       ]
     },
     "windows": [
       {
-        "fullscreen": false,
-        "resizable": true,
         "title": "Pyground",
         "width": 1000,
         "height": 750
