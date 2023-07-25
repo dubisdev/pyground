@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo.png" width="240" />
+  <img src="./assets/logo-yellow.png" width="240" />
 
 <h1 align="center">Pyground</h1>
 
