@@ -11,7 +11,6 @@ const ResultDisplayer = () => {
                 defaultLanguage='python'
                 theme='vs-dark'
                 options={{
-                    lineNumbers: 'off',
                     minimap: { enabled: false },
                     overviewRulerLanes: 0,
                     scrollbar: {
