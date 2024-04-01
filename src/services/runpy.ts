@@ -24,11 +24,14 @@ function concatenateValuesByKeys(object: any) {
 
     const keys = Object.keys(object).map(Number).sort((a, b) => a - b);
 
-    let result = '';
+    const result = [];
 
     for (const key of keys) {
-        result += object[key];
+        result[key] = object[key].trim()
     }
 
-    return result;
+    result.shift()
+
+    return result.join("\n")
+
 }
